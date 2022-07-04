@@ -30,12 +30,12 @@ const dataArr = [
         "link": "http://ksyeong0316.dothome.co.kr/0513/#1",
     },
     {
-        "image": "https://source.unsplash.com/collection/4", // 주닉스 깃허브주소
+        "image": "./image/주닉스2.png", // 주닉스 깃허브주소
         "link": "https://juniklee.github.io/testing-11/",
     },
     {
-        "image": "https://source.unsplash.com/collection/5",
-        "link": "http://google.com",
+        "image": "./image/영진.jpg", // 영진리뉴얼
+        "link": "http://pico44.dothome.co.kr/",
     },
     {
         "image": "https://source.unsplash.com/collection/6",
@@ -70,7 +70,7 @@ const init = () => {
     document.querySelector("#canvasWrap").appendChild(renderer.domElement);
     //cavasWrap 에 render 넣는다
 
-    document.body.style.height = `${HEIGHT + totalNum * 70}px`;
+    document.body.style.height = `${HEIGHT + totalNum * 80}px`;
     //body 스크롤 만들기
 
     //안개
